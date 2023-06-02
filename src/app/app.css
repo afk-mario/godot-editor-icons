@@ -1,0 +1,114 @@
+main {
+  color: var(--fg);
+  background: var(--bg);
+}
+
+header {
+  padding: var(--spacing-02);
+  text-align: center;
+}
+
+section {
+  display: grid;
+  width: 80%;
+  padding: var(--spacing-02);
+  margin: auto;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  grid-gap: var(--spacing-02);
+  gap: var(--spacing-02);
+}
+
+figure {
+  width: 100%;
+  height: 100%;
+  border: var(--border);
+  border-radius: var(--border-radius);
+  display: flex;
+  flex-flow: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  background: var(--bg);
+  color: var(--fg);
+}
+
+figure > div {
+  padding: var(--spacing-01);
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+}
+
+figure > div > img {
+  width: 100%;
+  max-height: 200px;
+  margin: 0 auto;
+}
+
+figcaption {
+  width: 100%;
+  border-top: var(--border);
+  padding: var(--spacing-01);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-align: center;
+}
+.App {
+  color: var(--fg);
+  background: var(--bg);
+}
+
+header {
+  padding: var(--spacing-02);
+  text-align: center;
+}
+
+section {
+  display: grid;
+  width: 80%;
+  padding: var(--spacing-02);
+  margin: auto;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  grid-gap: var(--spacing-02);
+  gap: var(--spacing-02);
+}
+
+figure {
+  width: 100%;
+  height: 100%;
+  border: var(--border);
+  border-radius: var(--border-radius);
+  display: flex;
+  flex-flow: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  background: var(--bg);
+  color: var(--fg);
+}
+
+figure > div {
+  padding: var(--spacing-01);
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+}
+
+figure > div > img {
+  width: 100%;
+  max-height: 200px;
+  margin: 0 auto;
+}
+
+figcaption {
+  width: 100%;
+  border-top: var(--border);
+  padding: var(--spacing-01);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-align: center;
+}
